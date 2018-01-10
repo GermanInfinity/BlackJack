@@ -52,15 +52,12 @@ class Card:
     def get_rank(self):
         return self.rank
 
-#    def draw(self, canvas, pos, in_play):
     def draw(self, canvas, pos):
         card_loc = (CARD_CENTER[0] + CARD_SIZE[0] * RANKS.index(self.rank), 
                     CARD_CENTER[1] + CARD_SIZE[1] * SUITS.index(self.suit))
         canvas.draw_image(card_images, card_loc, CARD_SIZE, [pos[0] + CARD_CENTER[0], pos[1] + CARD_CENTER[1]], CARD_SIZE)
         
-#        if in_play:
-#            canvas.draw_image(card_back, card_loc, CARD_SIZE, [pos[0] + CARD_CENTER[0], pos[1] + CARD_CENTER[1]], CARD_SIZE)
-#    
+
 
 class Hand:
     global in_play 
@@ -88,10 +85,8 @@ class Hand:
         elif total < 12:
             for card in self.hand:
                 if card.get_rank() == 'A':
-#                if 'A' in card.get_rank(): 
                     total += 10
                     return total
-#        if total == 0:
         return total
             
             
@@ -129,9 +124,6 @@ class Deck():
         
         
 
-
-
-#define event handlers for buttons
 def deal():
 
     global outcome, in_play, c1, player, dealer, score
@@ -218,10 +210,6 @@ def draw(canvas):
     canvas.draw_text('BLACKJACK', (220,150), 35, 'BLACK')
     canvas.draw_text('Player', (100,390), 27, 'BLACK')
     canvas.draw_text('Dealer', (100,240), 27, 'BLACK')
-   
-    
-#    player.draw(canvas, [100, 400], in_play)
-#    dealer.draw(canvas, [100, 250], in_play)
 
     player.draw(canvas, [100, 400])
     dealer.draw(canvas, [100, 250])
@@ -229,9 +217,6 @@ def draw(canvas):
         canvas.draw_image(card_back, CARD_CENTER, CARD_SIZE,
                           [100 + CARD_CENTER[0], 250 + CARD_CENTER[1]], CARD_SIZE)
 
-    #dealer.hole_draw(canvas, [200, 250])
-    
-    #dealer.draw(canvas, [100, 250])
    
     canvas.draw_text(outcome, (255,250), 22, 'Orange')
     canvas.draw_text('Score:', (400,250), 22, 'Black')
@@ -239,11 +224,11 @@ def draw(canvas):
 
     
     
-# initialization frame
+
 frame = simplegui.create_frame("Blackjack", 600, 600)
 frame.set_canvas_background("Green")
 
-#create buttons and canvas callback
+
 frame.add_button("Deal", deal, 200)
 frame.add_button("Hit",  hit, 200)
 frame.add_button("Stand", stand, 200)
@@ -255,4 +240,4 @@ deal()
 frame.start()
 
 
-# remember to review the gradic rubric
+
