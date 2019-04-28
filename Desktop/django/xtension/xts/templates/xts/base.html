@@ -1,0 +1,17 @@
+<!-- Put all HTML In here -->
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+		<title>{{ title }}</title>
+	{% else %}
+		<title>Page</title>
+	{% endif %}
+</head>
+
+<body>
+
+</body>
+	{% block content %}{% endblock %}
+</html>
+

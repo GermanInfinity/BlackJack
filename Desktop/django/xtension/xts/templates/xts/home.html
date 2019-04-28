@@ -1,0 +1,243 @@
+<html>
+<head>
+	<title>Negative Blocker Extension</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #669999;
+  padding: 8px;
+  text-align: center;
+  font-size: 40;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+body{
+	background-color:  #c2d6d6;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+p {
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
+p.one{
+  border-style: dotted;
+  border-width: thick;
+  text-align: center;
+}
+
+p.two{
+  border: 2px solid orange;
+  border-style: double;
+  border-width: thick;
+  background-color: green;
+  text-align: center;
+}
+
+.footer {
+  background-color: #3c5d5d;
+  padding: 1px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+  Reddit Negative Content Blocker
+</div>
+
+<div class="topnav">
+  <a href="team.html">Team</a>
+  <a href="features.html">Features</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Why?</h2>
+    <p class="one">Why?</p>
+  </div>
+  
+  <div class="column">
+    <h2></h2>
+  </div>
+  
+  <div class="column">
+    <h2>How?</h2>
+    <p class="one">How?</p>
+  </div>
+</div>
+
+<!--<img src="ugoslight/Desktop/20/comp20-s2019-team11/xts/templates/xts/seenoevil.jpg" alt="See no evil monkey emoji">-->
+<img src="seenoevil.jpg" alt="See no evil monkey emoji">
+
+<h2>examples of filtered posts</h2>
+<div class="row">
+  <div class="column">
+    <p>Example #1</p>
+  </div>
+  
+  <div class="column">
+    <p>Example #2</p>
+  </div>
+  
+  <div class="column">
+    <p>Example #3</p>
+  </div>
+</div>
+<br>
+
+
+<div class="row">
+  <div class="column">
+  </div>
+  
+  <div class="column">
+    <p class="two">install extension</p>
+  </div>
+  
+  <div class="column">
+  </div>
+</div>
+
+<div class="footer">
+  <p>Bakar Yves and Ugo</p>
+</div>
+
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(230, 200, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.item2 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Lines</h1>
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+ 
+  <div class="item7">7</div>
+  <div class="item8">8</div>  
+</div>
+
+
+</body>
+</html>
+
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Negative Blocker Extension</title>
+  <link rel="stylesheet" href="extension.css"/>
+  <meta charset="utf-8" />
+</head>
+
+<body>
+ <div class="container">
+
+  <div class="item1">One</div>
+
+
+ </div>
+</body>
+</html>
+
+
+<h1>Why?</h1>
+Argements for using our extension
+
+
+
+
+ TEMPLATE USE
+
+{% extends "xts/base.html" %}
+{% block content %}
+	{% for post in posts %}
+		<h1>{{ post.title }}</h1>
+		<p>By {{post.author}}</p>
+		<p> {{ post.content }} </p>
+	{% endfor %}
+{% endblock content %}
+
+-->

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "negative-blocker-app",
+  "private_key_id": "3c7a0f589c32d8f873df16ffd9b6910d94e09a5b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDKE+UmwKrbcnKO\nU2ZayR4DjNxpcbJOrjOEJhzMn0eKEdyLBU1I2XqHHI00u/scIZNeEjOkkzhai0aA\njDIyQ69Qd1B7gw2dOH5qJKlagPiVS/BBLuCx6mS9RBp7KvlD1iNbd0lI1Vbj1AmN\nr1SF8WReRQTA+xpBUJG2ZCXdO0NOtn7g/gsHeudmUO9wktpQnR1BWYYDwWlBb88F\njxuACZ+kY0qYDjgaaMVfRAYml7c4U9gMS8b076RASh8sVRvQU2wAu9pCVQ+EKvZj\nvKJ77K8ID6onklN0tQZa8h+XQSS/Ntf7hv+WEhmvbCAHiMtFLcIoCcQFEf9FDmBU\nXi6GF4V/AgMBAAECggEAAYPcvQEkvCIjgQG+NEiENUJF4GLHnCngQ97yv7qrdWja\nRhdc2hPPFavIKgyN1A9VUY6sx3LOdZeY//Uid+ECXmOlBd3ppLfkjJ0/r/EgNInS\nUWxk/K9wCw4Iw1O2Uss/qAQjCsJBIAWzuqKFZOEprpWGn6HIvAsY5rd7CmVbp0Pq\nM8NbENVgsJH3C8VmyvHAKaMmUVRgcRUiobH2q2wxQa7mLA27b/+MnAJsR3EP2FRk\nmTb7Z3ou9IFVcSalV5GKTpg3q9iqUaDywFkP5O6oGPHoXruvU6xUbGX/1v26OdGo\n4yI3shnLoC1Q9uuJaa2E8ITatJvTryZBlFUvD4cLUQKBgQDu9d4goWvPvPsRGNNv\n18psi+t6ZBr8BSzFgTeKDTF+JW/icd0jJbCtwM3/mA7lZsb2xemAZPiyoPeDn77f\nlAE87JKbfadXQCUUlU9LTuJWMpuvSR1DV1s4Hajb2baBH8agPx9AYgdXk2xZkZfl\ngmUZc9t4u3E16fLvHquWBe3FkQKBgQDYfL9gnkTmMas75RGzMkrUCdwIoUkURUCZ\nNYkHbThM1o2lGHhOfiW5IcCjYKpcfqPbzOpHyCbbzG3q/duQ7LjZpumzk7h84BQQ\nQ4o73ICvNs6gG4qeSBPjxszC66HMGOy7hEG7zqkt5oF21Wd1g25uTDF6Dr0ZAtjK\ntItnI5jSDwKBgQCuJj12Jm49/Yo0EZW2Qtvhc69viRkpZlQUtHFXiPny5zG9JCJ3\nhPZYCtWWWqkwglCqc94SloOxGyKHqJogsuqcDgVikJauPa9IavBY/+pvy34upuhO\ntZFjOipf3zDktdW534bVExwqtOQX+sVqnDc173uZZ3HASvmjTwTZ1wRMIQKBgQCt\n9tDzGzvSn2cyokku7uMisSmX5cOL/nqCo3qR9TqgxGjemmNS8BvwQSdEIpHD8iBK\nqMg7FqPjTMunYofmVdPVU0PJgpNmBcsZpqyWngLqyegQ0RD7UIBrMX2pxSAnmn/h\nz83i1Zctw2WV0Ldqv0smZyP7KYzbZGZBvgOnxfswEQKBgD83b833pDMYTauM/tYG\n8SXQpOUmaHcD8CySpL2inM2l7lgW8P9+k8/LeuaONn0uDs5eatYOe2Gtw5Exelh/\n9tT9aNqEjYV4oXYumtOfTPx8Ru8hSIBaQ4nw0mu4eQYzR6bkYDmiIb9KDkoffuHC\ndRbbVbFVZQidLVSYjy1rdlR6\n-----END PRIVATE KEY-----\n",
+  "client_email": "reddit-blocker@negative-blocker-app.iam.gserviceaccount.com",
+  "client_id": "103308443784241225029",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reddit-blocker%40negative-blocker-app.iam.gserviceaccount.com"
+}

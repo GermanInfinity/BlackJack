@@ -1,0 +1,12 @@
+{% extends "xts/base.html" %}
+{% block content %}
+<div>
+	<h1>Reddit post!</h1>
+		<form method="post">
+			{% csrf_token %}
+            {{ form.as_ul }}
+            <button type="submit">Submit</button>
+        </form>
+        <h2>{{ text }}</h2>
+</div>
+{% endblock content %}
