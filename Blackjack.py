@@ -11,6 +11,7 @@ This is a temporary script file.
 import simplegui
 import random
 
+
 # load card sprite - 936x384 - source: jfitz.com
 CARD_SIZE = (72, 96)
 CARD_CENTER = (36, 48)
